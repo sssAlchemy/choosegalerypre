@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                 val imageURL: String = cursor.getString(0)
                 Log.d("print-result_ok", imageURL)
 
-                val intent: Intent = Intent(this, DrawImage::class.java)
+                val intent: Intent = Intent(this, CanvasImage::class.java)
                 intent.putExtra("path", imageURL)
                 startActivity(intent)
 //                Toast.makeText(this,"URL; " + imageURL?:"",Toast.LENGTH_LONG)

@@ -21,6 +21,10 @@
         <activity
             android:name=".DrawImage">
         </activity>
+        <activity
+            android:name=".CanvasImage">
+        </activity>
+
     </application>
 
 </manifest>
